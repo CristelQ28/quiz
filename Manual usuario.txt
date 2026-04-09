@@ -1,0 +1,40 @@
+
+
+
+
+
+Manual de Usuario - Sistema de Inventario
+
+1. Descripción del sistema
+Este sistema permite registrar, listar, buscar, actualizar y eliminar productos.
+Cada producto tiene: id, nombre, cantidad y precio.
+
+2. Cómo ejecutar
+1. Abrir el proyecto en tu IDE (Eclipse, IntelliJ, NetBeans).
+2. Ejecutar la clase Main.java.
+3. Seguir las opciones del menú en consola.
+
+3. Explicación del menú
+- 1. Registrar producto: Ingresa nombre, cantidad y precio.
+- 2. Listar productos: Muestra todos los productos registrados.
+- 3. Buscar producto por ID: Ingresa el ID para ver detalles.
+- 4. Actualizar producto: Cambia nombre, cantidad o precio de un producto existente.
+- 5. Eliminar producto: Borra un producto por ID.
+- 6. Salir: Cierra el programa.
+
+4. Ejemplos de uso
+- Registrar producto:
+  Nombre: Lapicero
+  Cantidad: 50
+  Precio: 12.5
+- Listar productos:
+  Salida: ID:1 | Nombre:Lapicero | Cantidad:50 | Precio:12.5
+- Buscar producto por ID:
+  Entrada: 1
+  Salida: ID:1 | Nombre:Lapicero | Cantidad:50 | Precio:12.5
+- Actualizar producto:
+  Cambiar cantidad a 60
+  Salida: ID:1 | Nombre:Lapicero | Cantidad:60 | Precio:12.5
+- Eliminar producto:
+  Entrada: 1
+  Producto eliminado correctamente
