@@ -1,0 +1,39 @@
+
+Diagrama de Clases - Sistema de Inventario
+
+Clases:
+
+Producto
+- id: int
+- nombre: String
+- cantidad: int
+- precio: double
+
+ProductoDAO (interfaz)
++ agregar(Producto)
++ listar(): List<Producto>
++ buscarPorId(int): Producto
++ actualizar(Producto)
++ eliminar(int)
+
+ProductoDAOImpl
+- archivo: String
++ implementar métodos de ProductoDAO
+
+ProductoService
+- dao: ProductoDAO
++ registrarProducto(Producto)
++ listarProductos()
++ buscar(int)
++ actualizarProducto(Producto)
++ eliminarProducto(int)
+
+Main
++ menú de opciones
+
+Relaciones:
+
+Main → usa → ProductoService
+ProductoService → usa → ProductoDAO
+ProductoDAOImpl → implementa → ProductoDAO
+ProductoDAOImpl → usa → Producto

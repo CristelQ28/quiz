@@ -1,0 +1,30 @@
+
+
+
+
+Manual Técnico - Sistema de Inventario
+
+1. Arquitectura por capas
+- Entidad: Contiene la clase Producto que define los atributos y métodos de cada producto.
+- DAO: Interfaz ProductoDAO y clase ProductoDAOImpl que manejan la persistencia en productos.txt.
+- Negocio: Clase ProductoService que aplica reglas de negocio y valida datos.
+- Presentación: Clase Main que muestra el menú y recibe datos del usuario.
+
+2. Responsabilidad de cada clase
+- Producto.java: Modelo de datos de cada producto.
+- ProductoDAO.java: Define operaciones CRUD para los productos.
+- ProductoDAOImpl.java: Implementa operaciones CRUD usando archivo productos.txt.
+- ProductoService.java: Valida y procesa datos antes de enviarlos a DAO.
+- Main.java: Interacción con usuario vía consola, mostrando menú y recibiendo entradas.
+
+3. Flujo del sistema
+1. Usuario ejecuta Main.java.
+2. Se muestra el menú de opciones.
+3. Usuario selecciona una acción → ProductoService procesa la solicitud → ProductoDAOImpl accede al archivo.
+4. Resultado mostrado en consola.
+
+4. Decisiones técnicas
+- Persistencia en archivo .txt para simplificar la base de datos.
+- Arquitectura por capas para separar responsabilidades y mantener código limpio.
+- Uso de interfaces DAO permite cambiar la forma de persistencia sin afectar la lógica de negocio.
+- Validaciones en ProductoService para evitar datos inválidos (ej: precio negativo, cantidad negativa).

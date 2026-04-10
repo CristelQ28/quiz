@@ -1,3 +1,6 @@
 2,Teclado,10,15.5
 3,teclado,10,15.5
 2,mouse,5,10.0
+1,celular,5,15.5
+1,teclado,5,10.5
+1,teclado,10,15.5
