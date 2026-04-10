@@ -1,0 +1,66 @@
+
+Prompt 1:
+"Generar clase Producto en Java con encapsulamiento"
+
+Resultado:
+Se creó la clase Producto con atributos id, nombre, cantidad y precio, además de constructor y métodos getters/setters.
+
+Uso:
+Se utilizó para construir la entidad principal del sistema.
+
+Mejora:
+Se agregó método toString para facilitar la persistencia en archivo.
+
+
+Prompt 2:
+"Crear interfaz DAO en Java para manejar productos con operaciones CRUD"
+
+Resultado:
+Se generó una interfaz con métodos agregar, listar, buscar, actualizar y eliminar.
+
+Uso:
+Se utilizó como base para la capa de acceso a datos.
+
+Mejora:
+Se ajustaron los nombres de métodos para mayor claridad.
+
+
+Prompt 3:
+"Implementar DAO en Java usando archivos .txt para guardar objetos"
+
+Resultado:
+Se creó una clase que permite guardar y leer productos desde un archivo de texto.
+
+Uso:
+Se utilizó para implementar la persistencia del sistema.
+
+Mejora:
+Se optimizó la lectura del archivo usando BufferedReader.
+
+
+Prompt 4:
+"Crear capa de servicio en Java para manejar lógica de negocio"
+
+Resultado:
+Se generó una clase intermedia entre la presentación y el DAO.
+
+Uso:
+Se utilizó para validar datos antes de acceder a la base de datos.
+
+Mejora:
+Se agregaron validaciones como evitar datos negativos.
+
+
+Prompt 5:
+"Validar datos en Java evitando valores negativos y campos vacíos"
+
+Resultado:
+Se implementaron validaciones en la lógica de negocio.
+
+Uso:
+Se utilizó para mejorar la calidad de los datos ingresados.
+
+Mejora:
+Se agregó validación de ID duplicado.
+
+

@@ -1,0 +1,18 @@
+
+# CHANGELOG
+
+## v1.0
+- Creación de la estructura base del proyecto
+- Implementación de la clase Producto
+
+## v1.1
+- Implementación del CRUD completo
+- Creación de interfaz ProductoDAO
+- Implementación de ProductoDAOImpl con persistencia en archivo
+
+## v1.2
+- Implementación de la capa de servicio (ProductoService)
+- Validaciones de datos (precio, cantidad, nombre)
+- Mejora en manejo de errores
+
+
