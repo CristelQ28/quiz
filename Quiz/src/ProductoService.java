@@ -29,3 +29,7 @@ public class ProductoService {
         dao.eliminar(id);
     }
 }
+
+//Mejora
+
+feat: estructura base del proyecto
